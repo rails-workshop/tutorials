@@ -64,27 +64,33 @@
 
 ### Ruby и Rails
 
-   1. Поставить [Command Line Tools for XCode](https://developer.apple.com/downloads). Для этого вы должны иметь Apple ID.
-   1. Поставить [Homebrew](http://mxcl.github.com/homebrew/). Homebrew это менеджер пакетов для Mac OS.
-      1. Запустить программу Terminal. Она находиться в Applications\Utilities.
-      1. Вставить команду ```ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"``` в Terminal и выполнить ее
-      1. Что бы проверить правильность установки выполните эту комманду ```brew --version```. Если все установилось успешно вы увидите номер версии, например ```0.9.3```
-   1. Поставить [Git](http://git-scm.com/). Git это система контроля версий.
-      1. Запустите команду ```brew install git```
-   1. Поставить [RVM](https://rvm.beginrescueend.com/). RVM это менеджер версий Ruby
-      1. Запустите команду ```curl -L https://get.rvm.io | bash -s stable --rails```
-      1. Закройте Terminal и откройте его вновь
-      1. Запустите команду ```rvm install 1.9.3```
-      1. Запустите команду ```rvm use 1.9.3 --default```
+Следуйте этой инструкции:
+
+   1.  Поставить [Command Line Tools for XCode](https://developer.apple.com/downloads). Для этого вы должны иметь Apple ID.
+   1.  Поставить [Homebrew](http://mxcl.github.com/homebrew/). Homebrew это менеджер пакетов для Mac OS.
+       1. Запустить программу Terminal. Она находиться в Applications\Utilities.
+       1. Вставить команду ```ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"``` в Terminal и выполнить ее
+       1. Что бы проверить правильность установки выполните эту комманду ```brew --version```. Если все установилось успешно вы увидите номер версии, например ```0.9.3```
+   1.  Поставить [Git](http://git-scm.com/). Git это система контроля версий.
+       1. Запустите команду ```brew install git```
+   1.  Поставить [RVM](https://rvm.beginrescueend.com/). RVM это менеджер версий Ruby
+       1. Запустите команду ```curl -L https://get.rvm.io | bash -s stable --rails```
+       1. Закройте Terminal и откройте его вновь
+       1. Запустите команду ```rvm install 1.9.3```
+       1. Запустите команду ```rvm use 1.9.3 --default```
+
 
 Что бы проверить, что все установилось корректно сделайте следующее:
 
-    1. Запустить программу Terminal.
-    1. Выполните следующие команды:
-       * ruby -v
-       * gem -v
-       * rails -v
+  1.  Запустить программу Terminal.
 
-    1. Результат должен быть примерно таким:
+  1.  Выполните следующие команды:
+     * ruby -v
+     * gem -v
+     * rails -v
 
-       ![Результат работы](https://raw.github.com/rails-workshop/tutorials/master/setup/images/step6mac.png)
+  1.  Результат должен быть примерно таким:
+        
+  ![Результат работы](https://raw.github.com/rails-workshop/tutorials/master/setup/images/step6mac.png)
+
+
